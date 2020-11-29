@@ -18,13 +18,14 @@ h2{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     margin-left: 5rem;
+    padding: 3rem 0 1rem 0;
 }
 p, a{
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
 
-/* INICIO SECCION NOTICIAS */
+/* INICIO SECCION SERVICIOS */
 .seccionServicios{
     display: flex;
     justify-content: space-evenly;
@@ -57,12 +58,6 @@ p, a{
     color: #ffffff;
 }
 
-/* .cardServicios .btnVerMas{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-} */
 .cardServicios a{
     float: right;
     background-color: #ffb700;
@@ -79,4 +74,58 @@ p, a{
     background-color: #000000;
     color: #ffffff;
 }
-/* FIN SECCION NOTICIAS */
+/* FIN SECCION SERVICIOS */
+
+/* INICIO SECCION SERVICIOS */
+.seccionNoticias{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.seccionNoticias .cardServicios{
+    width: 50%;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+
+.cardNoticias{
+    padding: 1rem;
+    margin: 0.5rem;
+    background-color: #ffffff;
+    border-radius: 7px;
+    max-width: 45%;
+}
+
+.cardNoticias img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.textCard{
+    height: 300px;
+}
+.cardNoticias p{
+    font-size: 1rem;
+    margin: 0 1rem  1rem 1rem;
+    color: #333333;
+    text-align: justify;
+}
+
+.cardNoticias a{
+    float: right;
+    background-color: #333333;
+    font-size: 0.9rem;
+    color: #ffb700;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin: 0 1rem  1rem 1rem;
+    align-items: end;
+    max-height: 35px;
+    text-decoration: none;
+}
+.cardNoticias a:hover{
+    background-color: #ffb700;
+    color: #333333;
+}
+/* FIN SECCION SERVICIOS */
