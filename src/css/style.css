@@ -66,4 +66,59 @@ header section{
 footer{
 	width:100%;
 	background-color:#333;
+	display:flex;
+}
+.motivo{
+	width:30%;
+	display:block;
+	font-size:2em;
+	text-align: center;
+}
+	
+.motivo a {
+	display: block;
+	text-decoration: none;
+	padding: 12px 30px;
+	white-space: nowrap;
+	font-size: 1em;
+	text-transform: uppercase;
+	color:white
+	/* 	transition: .3s; */
+}
+.motivo  a:link {
+	color: #fff;
+}
+
+.motivo a:visited {
+	color: #999;
+}
+
+.motivo  a:hover {
+	color: #0090FF;
+}
+
+.motivo  a:active {
+	background-color: #E247;
+	color: black;
+	border-radius: 6px;
+}
+.info_contacto{
+	width:70%;
+	display:block;
+	text-align: center;
+}
+.info_contacto p{
+	display:block;
+	font-size:2em;
+}
+.info_contacto i {
+	border-radius: 50%;
+	background-color: #69637a;
+	color: #fff;
+	font-size: 1em;
+	width: 1.25em;
+	height: 1.25em;
+	text-align: center;
+	vertical-align: middle;
+	line-height: inherit;
 }
