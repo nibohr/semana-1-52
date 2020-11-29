@@ -1,18 +1,39 @@
-*{margin: 0;
+*{
+	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
-	border-collapse: collapse;
-	
 }
+
 body{
     background: #EDD59E;
 	width:1200px;
+	font-family: sans-serif;
+	border-collapse: collapse;
+	margin: 0 auto;
 }
 
 header section{
     display: inline-flex;
 	width:100%;
 	height:10em;
+}
+.imgFondoHeader{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 450px;
+	background-image: url('../img/bckgrHeader.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: -4px;
+	padding: 0;
+}
+.imgFondoHeader h2{
+	background-color: rgba(255, 183, 0, 0.5);
+	width: 100%;
+	text-align: center;
+	padding: 2rem 0;
+	color: #fff;
+    text-shadow: 3px 3px 5px #000;
 }
 .logo{
 	width:25%;
@@ -99,15 +120,15 @@ header section{
 }
 
 .menu ul li a:visited {
-	color: #999;
+	color: #ffffff;
 }
 
 .menu ul li a:hover {
-	color: #0090FF;
+	color:  rgba(255, 183, 0, 0.5);
 }
 
 .menu ul li a:active {
-	background-color: #E247;
-	color: black;
+	background-color: rgb(255, 183, 0);
+	color: rgb(38, 38, 38);
 	border-radius: 6px;
 }
