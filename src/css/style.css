@@ -1,8 +1,9 @@
+/* INICIO HEADER */
 *{
   margin: 0;
   padding: 0;
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap'); */
 body{
     font-family: 'Montserrat', sans-serif;
     background: #EDD59E;
@@ -47,6 +48,7 @@ header section{
 	padding: 2rem 0;
 	color: #fff;
     text-shadow: 3px 3px 5px #000;
+	margin-left:0;
 }
 .logo{
     width:25%;
@@ -84,6 +86,14 @@ header section{
 .menu ul li a:link {
 	color: #fff;
 }
+
+.menu ul li a:active {
+	background-color: rgb(255, 183, 0);
+	color: rgb(38, 38, 38);
+	border-radius: 6px;
+}
+/* FIN HEADER */
+
 /*FIN SECCION HEADER*/
 
 /* INICIO SECCION SERVICIOS */
