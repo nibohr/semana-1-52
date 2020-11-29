@@ -81,9 +81,6 @@ footer{
 	padding: 12px 30px;
 	white-space: nowrap;
 	font-size: 1em;
-	text-transform: uppercase;
-	color:white
-	/* 	transition: .3s; */
 }
 .motivo  a:link {
 	color: #fff;
@@ -106,6 +103,9 @@ footer{
 	width:70%;
 	display:block;
 	text-align: center;
+}
+.info_contacto h3{
+	font-family:'Cookie';
 }
 .info_contacto p{
 	display:block;
