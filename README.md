@@ -9,7 +9,7 @@ Integrantes / Tareas:
 -- Nicolás Bohórquez 
     / HTML Header, Footer e inicio de CSS
 
--- Diego Ubaldo Rojas Sánchez Ajustes varios en HTML y CSS
+-- Diego Ubaldo Rojas Sánchez / Ajustes varios en HTML y CSS
 
 -- Jhon William Cruz Niño 
     / HTML sección Equipo
