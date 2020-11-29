@@ -1,12 +1,13 @@
-*{margin: 0;
-	padding: 0;
-	font-family: sans-serif;
-	border-collapse: collapse;
-	
+*{
+    margin: 0;
+    padding: 0;
 }
 body{
     background: #EDD59E;
 	width:1200px;
+	font-family: sans-serif;
+	border-collapse: collapse;
+	margin: 0 auto;
 }
 
 header section{
@@ -63,16 +64,25 @@ header section{
 	color: black;
 	border-radius: 6px;
 }
-footer{
-	width:100%;
+.seccionFooter{
 	background-color:#333;
-	display:flex;
+    display:flex;
+    align-items: center;
 }
+
+
 .motivo{
 	width:30%;
 	display:block;
 	font-size:1em;
-	text-align: center;
+    text-align: center;
+    margin: 2rem;
+    padding-right: 2rem;
+    border-right: 1px solid rgb(94, 94, 94);;
+}
+
+.motivo p{
+    color: #ffffff;
 }
 	
 .motivo a {
@@ -102,16 +112,27 @@ footer{
 .info_contacto{
 	width:70%;
 	display:block;
-	text-align: center;
+    text-align: center;
+    margin: 2rem;
 }
 .info_contacto h3{
-	font-family:'Cookie';
-	padding-top: 1em;
-padding-bottom: 1em;
+    color: rgb(255, 183, 0);
+    font-family:'Cookie';
+    font-size: 2rem;
+	/* padding-top: 1em; */
+    padding-bottom: 1em;
 }
 .info_contacto p{
+    color: #ffffff;
 	display:block;
-	font-size:1.5em;
+    font-size:1.5em;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+em{
+    font-size: 1.3rem;
+    margin-left: 3rem;
 }
 .info_contacto i {
 	border-radius: 50%;
