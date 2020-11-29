@@ -129,3 +129,23 @@ p, a{
     color: #333333;
 }
 /* FIN SECCION SERVICIOS */
+
+
+/* INICIO SECCION TEAM */
+.seccionTeam{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.seccionTeam .cardTeam{
+    width: 20%;
+    margin: 1rem;
+}
+
+.cardTeam img{
+    width: 250px;
+    margin-bottom: 1rem;
+}
+
+/* FIN SECCION TEAM */
