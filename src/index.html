@@ -1,14 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primera pagina web</title>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>FoodPorn</title>
+	<script src="https://kit.fontawesome.com/779d2b34ac.js" crossorigin="anonymus"></script>
+	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-
-</head>
-<body>
+  </head>
+  <body>
+        <!-- inicio header -->
+        <header>
+          <section> 
+              <img class="logo" src="img/logo.jpg" alt="logotipo">
+              <nav class="menu">
+                <ul>
+                  <li class="menu_item"><a href="#inicio">Inicio</a></li>
+                  <li class="menu_item"><a href="#services">Servicios</a>
+                  <li class="menu_item"><a href="#news">Noticias</a></li>
+                  <li class="menu_item"><a href="#team">Equipo</a></li>
+                  </ul>
+                </nav>
+          </section>
+            </header>
+        <!-- fin header -->
+        <!-- inicio main -->
+        <main class="contenido">
     <!--inicio section servicios -->
     <section class="nombreSeccion">
       <h2>Nuestros servicios </h2>
@@ -94,5 +110,23 @@
           </p>
       </div>
   </section>
+              <!-- fin section team -->
+        </main>
+        <!-- fin main -->
+    <!-- inicio footer  -->
+	    <footer >
+        <div class="motivo">
+          <p>Se decide escoger como tema un restaurante debido a los diversos gustos en común de todos los integrantes por la alta cocina y la pasión por degustar y preparar diversos platos de alta gastronomía principalmente Colombiana pero sin dejar de lado la cocina internacional para poder hacer fusiones interesantes de sabores, formas y estilos de cocina, todo esto para dar nuevas sensaciones a nuestros sentidos.</p>
+          <a href="https://github.com/nibohr/semana-1-52"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="info_contacto">
+            <h3>Sobre nuestra equipo</h3>
+            <p><i class="fas fa-user-tie"></i><a href="mailto:nbohorquez@renaissance.co">Nicolás Bohórquez Guerrero  &mdash; Chef Michellin 3 estrellas</p></a>
+			<p><i class="fas fa-user-tie"></i><a href="mailto:jcruz@renaissance.co">Jhon Cruz  &mdash; Maestro de ceremonias</p></a>
+			<p><i class="fas fa-user-tie"></i><a href="mailto:drojas@renaissance.co">Diego Ubaldo Rojas Sánchez  &mdash; Gerente de eventos</p></a>
+			<p><i class="fas fa-user-tie"></i><a href="mailto:rsanchez@renaissance.co">Roberth Sanchez  &mdash; Ingeniero de alimentos</p></a>
+        </div>
+    </footer>
+    <!-- fin del footer -->
 </body>
 </html>
