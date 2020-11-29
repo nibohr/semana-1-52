@@ -71,7 +71,7 @@ footer{
 .motivo{
 	width:30%;
 	display:block;
-	font-size:2em;
+	font-size:1em;
 	text-align: center;
 }
 	
@@ -80,7 +80,7 @@ footer{
 	text-decoration: none;
 	padding: 12px 30px;
 	white-space: nowrap;
-	font-size: 1em;
+	font-size: 2.5em;
 }
 .motivo  a:link {
 	color: #fff;
@@ -106,10 +106,12 @@ footer{
 }
 .info_contacto h3{
 	font-family:'Cookie';
+	padding-top: 1em;
+padding-bottom: 1em;
 }
 .info_contacto p{
 	display:block;
-	font-size:2em;
+	font-size:1.5em;
 }
 .info_contacto i {
 	border-radius: 50%;
@@ -121,4 +123,9 @@ footer{
 	text-align: center;
 	vertical-align: middle;
 	line-height: inherit;
+	margin-right:1em;
+}
+.info_contacto a{
+	text-decoration:none;
+	color:white;	
 }
